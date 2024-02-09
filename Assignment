@@ -7,9 +7,9 @@ print("Sorted order:", emails)
 emails.append("akosua@example.com")
 emails.append("clarebel@example.com")
 
-emails.remove("jesse@example.com")
+emails.pop(1)
 
 print("Number of people coming to the wedding:", len(emails))
 
 emails.sort()
-print("Emails in alphabetical order:", emails)
+print(emails)
